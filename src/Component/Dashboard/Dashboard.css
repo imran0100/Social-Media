@@ -1,0 +1,87 @@
+/* dashboard.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  .container {
+    display:flex;
+    gap:1%;
+  }
+  .section {
+   
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    
+  }
+  .section-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .size{
+    font-size: 2rem;
+  }
+  .gradient-box {
+    color: #ffffff;
+    padding: 10%;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+    border-radius: 8px;
+  }
+  .gradient1{
+    background: linear-gradient(45deg, rgb(142, 5, 5), #650202);
+
+  }
+  .gradient2{
+    background: linear-gradient(45deg, rgb(10, 27, 69), #33007b);
+
+  }
+  .gradient3{
+    background: linear-gradient(45deg, rgb(26, 5, 65), #0314a8);
+
+  }
+  .gradient4{
+    background: linear-gradient(45deg, rgb(6, 102, 59), #022423);
+
+  }
+  .gradient5{
+    background: linear-gradient(45deg, rgb(102, 6, 75), #35022f);
+
+  }
+  .gradient6{
+    background: linear-gradient(45deg, rgb(185, 141, 8), #675302);
+
+  }
+  .gradient-red{
+    background: linear-gradient(90deg, #084985, #054145);
+  }
+  .gradient-yellow{
+    background: linear-gradient(45deg, rgb(13, 50, 8), #04260e);
+
+  }
+  .gradient-pink{
+    background: linear-gradient(45deg, red, #640a0a);
+
+  }
+  .gradient-teal{
+    background: linear-gradient(45deg, rgb(89, 0, 255), #0b0b46);
+
+  }
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    /* Add your specific styles for the content */
+  }
+  
+  /* Add more styles as needed */
+  
