@@ -7,7 +7,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from './Component/Dashboard/Dashboard';
 import UserList from './Component/UserList/UserList';
-import Posts from './Component/UserList/Posts/Posts';
+import Posts from './Component/Posts/Posts';
 // import UserList from './UserList/UserList'; // Import the UserList component
 
 const App = () => {

@@ -6,9 +6,9 @@ import OverviewIncomeGraph from '../overview-income-graph';
 import UserIncreaseGraph from '../user-increase-graph';
 import OnlineUserChart from '../online-user-chart';
 import ContentUploadVChart from '../content-upload-chart';
-import UserList from '../UserList/UserList';
+
 import { Link } from 'react-router-dom';
-import Posts from '../UserList/Posts/Posts';
+
 
 const Dashboard = () => {
     const [timeRange, setTimeRange] = useState('weekly');
