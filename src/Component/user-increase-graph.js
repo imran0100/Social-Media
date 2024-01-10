@@ -20,7 +20,7 @@ function UserIncreaseGraph() {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
-        <Legend />
+        {/* <Legend /> */}
         <Line type="monotone" dataKey="users" stroke="#8884d8" />
       </LineChart>
     </ResponsiveContainer>
